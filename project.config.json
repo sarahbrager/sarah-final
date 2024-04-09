@@ -1,23 +1,14 @@
 {
   "files": [
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
+      "fileId": "1GY14aCnIgPhD1Jzj6dNo8HzVq8vzpf5bEpcoLvdLltA",
       "type": "doc",
-      "name": "library"
+      "name": "restaurants"
     },
     {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
+      "fileId": "10B4nXTttxdlVdltvjgLOIyMlm5WhyFmNTtAFrbtHGUc",
       "type": "sheet",
-      "name": "bookstores"
-    }
-  ],
-  "to_bake": [
-    {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
-      "slug": "slug",
-      "path": "books"
+      "name": "austin-data"
     }
   ]
 }
