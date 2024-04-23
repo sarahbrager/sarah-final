@@ -1,84 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
     <title>Home page</title>
-    <meta
-      name="description"
-      content="The index search description for this page goes here."
-    />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <link rel="stylesheet" href="css/main.css" />
+    <meta name="description" content="The index search description for this page goes here.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-link active" aria-current="page" href="index.html"
-          >Home</a
-        >
-        <ul class="nav nav-tabs">
-          <li class="nav-item dropdown" id="dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              data-bs-toggle="dropdown"
-              role="button"
-              aria-expanded="false"
-              >Discover Austin</a
-            >
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="landmarks.html">Landmarks</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="restaurants.html">Restaurants</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="activities.html">Activities</a>
-              </li>
-              <li><hr class="dropdown-divider" /></li>
-              <li>
-                <a class="dropdown-item" href="feedback.html"
-                  >Give Us Feedback</a
-                >
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="index.html">Discover Austin</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="landmarks.html">Landmarks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="restaurants.html">Restaurants</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="activities.html">Activities</a>
+      </li>
+    </ul>
+  </div>
+ </div>
+</nav> 
 
-    <div id="jumbo" class="p-5 mb-4 bg-light">
-      <div class="container-fluid py-5 text-center">
-        <h1 class="display-5 fw-bold">Welcome to Austin, Texas!</h1>
-        <p>
-          Explore our website and plan your next visit to the Live Music Capital
-          of the world
-        </p>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="column col-md-10 col-lg-8">
-          <h1>Get to know one of the fastest-growing cities in the U.S.</h1>
-          <p>Add some interesting facts about Austin here</p>
-          <h2>Austin news</h2>
-          <p>This loops through data that came from a Google Docs example.</p>
-        </div>
-      </div>
+     <div id="jumbo" class="p-5 mb-4 bg-light">
+  <div class="container-fluid py-5 text-center">
+    <h1 class="display-5 fw-bold">Welcome to Austin, Texas!</h1>
+    <p>Explore our website and plan your next visit to the Live Music Capital of the world</p>
+  </div>
+</div>
+
+    
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="column col-md-10 col-lg-8">
+      <h1>Get to know one of the fastest-growing cities in the U.S.</h1>
+      <p>Add some interesting facts about Austin here</p>
+      <h2>Austin news</h2>
+      <p>This loops through data that came from a Google Docs example.</p>
+    
     </div>
+  </div>
+</div>
+
 
     <footer>
-      <p id="legal" class="center-block text-center">
-        <small>&copy;</small> <span class="copyright-year"></span>
-        A class project by Sarah Brager.
-      </p>
-    </footer>
+<p id="legal" class="center-block text-center">
+  <small>&copy;</small> <span class="copyright-year"></span>
+  A class project by Sarah Brager.
+</p>
+</footer>
+
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

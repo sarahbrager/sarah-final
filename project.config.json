@@ -10,5 +10,14 @@
       "type": "sheet",
       "name": "austin-data"
     }
+  ],
+  "to_bake": [
+    {
+      "template": "bake-landmarks",
+      "data": "atxdata",
+      "array": "landmarks",
+      "slug": "slug",
+      "path": "landmarks"
+    }
   ]
 }
