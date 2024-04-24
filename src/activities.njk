@@ -9,25 +9,24 @@
   <div class="row justify-content-center">
       <div class="column col-md-10 col-lg-8">
         <h1>Need help planning your day-to-day?</h1>
-        <p>add more here</p>
       </div>
   </div>
  <div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3 justify-content-center">
+ <table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Activity</th>
+      <th scope="col">Date and Time</th>
+      <th scope="col">Address</th>
+    </tr>
+  </thead>
   {% for activities in atxdata.activities %}
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">{{ activities.activity }}</h5>
-          <h6 class="captain-name">{{ activities.date_time }}</h6>
-          <p class="card-text pt-3">{{ activities.address }}</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="{{ activities.url }}" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="{{ activities.url }}">{{ activities.activity }}</a></th>
+      <td>{{ activities.date_time }}</td>
+      <td>{{ activities.address }}</td>
+    </tr>
   {% endfor %}
   </div>
 </div>

@@ -10,27 +10,27 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
-  <a class="navbar-brand" href="index.html">Discover Austin</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="landmarks.html">Landmarks</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="restaurants.html">Restaurants</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="activities.html">Activities</a>
-      </li>
-    </ul>
+    <a class="navbar-brand" href="index.html">Explore Austin</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="landmarks.html">Landmarks</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="restaurants.html">Restaurants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="activities.html">Activities</a>
+        </li>
+      </ul>
+    </div>
   </div>
- </div>
-</nav> 
+</nav>
 
 
      <div id="jumbo" class="p-5 mb-4 bg-light">
@@ -45,130 +45,73 @@
   <div class="row justify-content-center">
       <div class="column col-md-10 col-lg-8">
         <h1>Need help planning your day-to-day?</h1>
-        <p>add more here</p>
       </div>
   </div>
  <div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3 justify-content-center">
+ <table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Activity</th>
+      <th scope="col">Date and Time</th>
+      <th scope="col">Address</th>
+    </tr>
+  </thead>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">Texas Farmer&#39;s Market at Mueller</h5>
-          <h6 class="captain-name">Sundays 10:00am – 2:00pm</h6>
-          <p class="card-text pt-3">4209 Airport Blvd. Austin, Texas 78722</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="https://texasfarmersmarket.org/mueller/" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="https://texasfarmersmarket.org/mueller/">Texas Farmer&#39;s Market at Mueller</a></th>
+      <td>Sundays 10:00am – 2:00pm</td>
+      <td>4209 Airport Blvd. Austin, Texas 78722</td>
+    </tr>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">Community Night at the Thinkery</h5>
-          <h6 class="captain-name">Wednesdays 4:00pm – 8:00pm</h6>
-          <p class="card-text pt-3">1830 Simond Ave., Austin, TX 78723</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="https://thinkeryaustin.org/visit-us/#hours" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="https://thinkeryaustin.org/visit-us/#hours">Community Night at the Thinkery</a></th>
+      <td>Wednesdays 4:00pm – 8:00pm</td>
+      <td>1830 Simond Ave., Austin, TX 78723</td>
+    </tr>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">Barton Springs Pool</h5>
-          <h6 class="captain-name">Year-round</h6>
-          <p class="card-text pt-3">2201 Barton Springs Rd, Austin, TX 78704</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="https://www.austintexas.org/listings/barton-springs-pool/4687/" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="https://www.austintexas.org/listings/barton-springs-pool/4687/">Barton Springs Pool</a></th>
+      <td>Year-round</td>
+      <td>2201 Barton Springs Rd, Austin, TX 78704</td>
+    </tr>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">Kayaking Lady Bird Lake at the Rowing Dock</h5>
-          <h6 class="captain-name">Year-round</h6>
-          <p class="card-text pt-3">2418 Stratford Dr., Austin, TX 78746</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="https://www.austintexas.org/listings/rowing-dock/9470/" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="https://www.austintexas.org/listings/rowing-dock/9470/">Kayaking Lady Bird Lake at the Rowing Dock</a></th>
+      <td>Year-round</td>
+      <td>2418 Stratford Dr., Austin, TX 78746</td>
+    </tr>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">See bats at the Congress Avenue Bridge</h5>
-          <h6 class="captain-name">Summer evenings</h6>
-          <p class="card-text pt-3">100 Congress Ave, Austin, TX 78701-4072</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="http://www.batcon.org/index.php/our-work/regions/usa-canada/protect-mega-populations/cab-intro" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="http://www.batcon.org/index.php/our-work/regions/usa-canada/protect-mega-populations/cab-intro">See bats at the Congress Avenue Bridge</a></th>
+      <td>Summer evenings</td>
+      <td>100 Congress Ave, Austin, TX 78701-4072</td>
+    </tr>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">The Pecan Street Festival</h5>
-          <h6 class="captain-name">Every spring and fall</h6>
-          <p class="card-text pt-3">501 Old Pecan St, Austin, TX 78701</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="https://www.austintexas.org/listings/barton-springs-pool/4687/" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="https://www.austintexas.org/listings/barton-springs-pool/4687/">The Pecan Street Festival</a></th>
+      <td>Every spring and fall</td>
+      <td>501 Old Pecan St, Austin, TX 78701</td>
+    </tr>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">See free concerts at The Blues on the Green</h5>
-          <h6 class="captain-name">Once a month throughout the summer</h6>
-          <p class="card-text pt-3">2100 Barton Springs Rd., Zilker Park, Austin, TX 78746</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="https://www.austintexas.org/listings/blues-on-the-green/2673/" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="https://www.austintexas.org/listings/blues-on-the-green/2673/">See free concerts at The Blues on the Green</a></th>
+      <td>Once a month throughout the summer</td>
+      <td>2100 Barton Springs Rd., Zilker Park, Austin, TX 78746</td>
+    </tr>
   
-  <div class="col">
-    <div class="card h-100 text-bg-light border-dark">
-      <div class="card-body">
-        <div class="card-header border-dark">
-          <h5 class="card-title">Attend the South by Southwest Conference</h5>
-          <h6 class="captain-name">Annually in the spring</h6>
-          <p class="card-text pt-3">Multiple locations in Austin, TX</p>
-        </div>
-        <div class="card-footer border-dark">
-        <a href="https://www.austintexas.org/listings/barton-springs-pool/4687/" class="card-link">Visit their website</a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <tbody>
+    <tr>
+      <th scope="row"><a href="https://www.austintexas.org/listings/barton-springs-pool/4687/">Attend the South by Southwest Conference</a></th>
+      <td>Annually in the spring</td>
+      <td>Multiple locations in Austin, TX</td>
+    </tr>
   
   </div>
 </div>
