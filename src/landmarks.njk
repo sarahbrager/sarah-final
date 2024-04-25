@@ -3,12 +3,11 @@
 {% block page_title %}Visit some of the most popular spots around the city{% endblock %}
 {% block content %}
 <div class="container">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center" id="article-landmarks">
     <div class="column col-md-10 col-lg-8">
       <h1>Visit some of the most popular spots around the city</h1>
-      <p>Click on the links to learn more about each spot, including ...</p>
     {% for landmark in atxdata.landmarks %}
-    <h3><a href="atxdata/{{ landmark.slug }}.html">{{ landmark.name }}</a></h3>
+    <h4><a href="landmarks/{{ landmark.slug }}.html">{{ landmark.name }}</a></h4>
     {{ landmark.activities }}
     {% endfor %}
     </div>

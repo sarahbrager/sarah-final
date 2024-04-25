@@ -22,36 +22,53 @@
 @import 'nav';
 @import 'jumbotron';
 
-h3 {
-  font-size: 1.5rem;
-}
 
-.pt-serif-regular {
-  font-family: "PT Serif", serif;
+.oswald {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-style: normal;
-}
-
-.pt-serif-bold {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.pt-serif-regular-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.pt-serif-bold-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: italic;
 }
 
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2, h3 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+#article-restaurants, #article-activites {
+  font-family: "Oswald", sans-serif;
+  font-weight: light;
+  text-align: center;
+}
+
+#article-index, #article-landmarks {
+  font-family: "Oswald", sans-serif;
+  font-weight: light;
+}
+
+#activities-page {
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+
+#indiv-landmarks {
+  h1{
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+#footer {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
 }

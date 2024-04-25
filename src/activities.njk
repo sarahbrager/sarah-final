@@ -5,10 +5,10 @@
 {% block page_description %}A list of pirate ships of lore from fact and fiction.{% endblock %}
 
 {% block content %}
-<div class="container">
+<div class="container" id="article-activities">
   <div class="row justify-content-center">
     <div class="column col-md-10 col-lg-8">
-      <h1>Need help planning your day-to-day?</h1>
+      <h1 id="activities-page">Need help planning your day-to-day?</h1>
     </div>
   </div>
  <div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3 justify-content-center">
@@ -23,7 +23,7 @@
   {% for activities in atxdata.activities %}
    <tbody>
     <tr>
-      <th scope="row"><a href="{{ activities.url }}">{{ activities.activity }}</a></th>
+      <th scope="row"><a href="{{ activities.url }}" target="_blank">{{ activities.activity }}</a></th>
       <td>{{ activities.date_time }}</td>
       <td>{{ activities.address }}</td>
     </tr>
