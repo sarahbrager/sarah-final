@@ -10,14 +10,14 @@
   <article class="container" id="indiv-landmarks">
     <div class="row">
       <div class="col-sm-4">
-          <img src="img/img-austin/landmarks/{{ landmarks.image }}" alt="landmark image" class="img-fluid mb-4">
+        <img src="img/img-austin/landmarks/{{ image }}" alt="landmark image" class="img-fluid mb-4">
       </div>
       <div class="col-sm-8">
           <h1>{{ name }}</h1>
           <p>{{ established | safe }}</p>
           <p>Address: {{ location | safe }}</p>
           <p>Available activities: {{ activities | safe }}</p>
-          <p>{{ description | safe }}</p>
+          {{ description | safe }}
       </div>
     </div>
   </article>
