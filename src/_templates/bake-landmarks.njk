@@ -1,6 +1,5 @@
 {% extends '_templates/base.njk' %}
 {% set relative_path = "../" %}
-{% from '_macros/prose.njk' import prose %}
 
 {% block page_title %}{{ name }}{% endblock %}
 
@@ -9,15 +8,16 @@
 {% block content %}
   <article class="container" id="indiv-landmarks">
     <div class="row">
-      <div class="col-sm-4">
-        <img src="img/img-austin/landmarks/{{ image }}" alt="landmark image" class="img-fluid mb-4">
+      <div class="col-md-6 col-lg-4">
+        <img src="../img/img-austin/landmarks/{{ image }}" alt="landmark image" class="img-fluid mb-4">
       </div>
-      <div class="col-sm-8">
+      <div class="col-md-6 col-lg-8">
           <h1>{{ name }}</h1>
           <p>{{ established | safe }}</p>
           <p>Address: {{ location | safe }}</p>
           <p>Available activities: {{ activities | safe }}</p>
           {{ description | safe }}
+          <p><a href="{{ relative_path }}landmarks.html">Return to list</a></p>
       </div>
     </div>
   </article>

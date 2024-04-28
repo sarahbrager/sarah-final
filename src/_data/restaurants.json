@@ -5,84 +5,105 @@
       "address": "900 E 11th St, Austin, TX 78702",
       "category": "Barbecue",
       "image": "franklin-bbq.jpg",
-      "url": "https://franklinbbq.com/\">https://franklinbbq.com/"
+      "url": "https://franklinbbq.com/"
     },
     {
       "name": "Home Slice Pizza",
       "address": "1415 S Congress Ave, Austin, TX 78704",
       "category": "Pizza",
       "image": "homeslice-pizza.jpg",
-      "url": "https://homeslicepizza.com/\">https://homeslicepizza.com/"
+      "url": "https://homeslicepizza.com/"
     },
     {
       "name": "Juan in a Million",
       "address": "2300 E Cesar Chavez St, Austin, TX 78702",
       "category": "Tex-Mex",
       "image": "juan-in-a-million.jpg",
-      "url": "https://juaninamillion.com/\">https://juaninamillion.com/"
+      "url": "https://juaninamillion.com/"
     },
     {
       "name": "Launderette",
       "address": "2115 Holly St, Austin, TX 78702",
       "category": "American",
       "image": "launderette.jpg",
-      "url": "https://launderetteaustin.com/\">https://launderetteaustin.com/"
+      "url": "https://launderetteaustin.com/"
     },
     {
       "name": "Oseyo",
       "address": "1628 E Cesar Chavez St, Austin, TX 78702",
       "category": "Korean",
       "image": "oseyo.jpg",
-      "url": "https://www.oseyoaustin.com/\">https://www.oseyoaustin.com/"
+      "url": "https://www.oseyoaustin.com/"
     },
     {
       "name": "Valentina's Tex Mex BBQ",
       "address": "11500 Menchaca Rd, Austin, TX 78748",
       "category": "Tacos",
       "image": "valentinas.jpg",
-      "url": "https://www.valentinastexmexbbq.com/\">https://www.valentinastexmexbbq.com/"
+      "url": "https://www.valentinastexmexbbq.com/"
     },
     {
       "name": "The Peached Tortilla",
       "address": "5520 Burnet Rd #100, Austin, TX 78756",
       "category": "Asian fusion",
       "image": "peached-tortilla.jpg",
-      "url": "https://www.thepeachedtortilla.com/\">https://www.thepeachedtortilla.com/"
+      "url": "https://www.thepeachedtortilla.com/"
     },
     {
       "name": "Patrizi's",
       "address": "2307 Manor Rd, Austin, TX 78722",
       "category": "Italian",
       "image": "patrizis.jpg",
-      "url": "https://www.patrizis.com/\">https://www.patrizis.com/"
+      "url": "https://www.patrizis.com/"
     },
     {
       "name": "Bufalina",
       "address": "1519 E Cesar Chavez St #200, Austin, TX 78702",
       "category": "Pizza",
       "image": "bufalina.jpg",
-      "url": "https://www.bufalinapizza.com/\">https://www.bufalinapizza.com/"
+      "url": "https://www.bufalinapizza.com/"
     },
     {
       "name": "Via313",
       "address": "61 Rainey St, Austin, TX 78701",
       "category": "Pizza",
       "image": "via313.jpg",
-      "url": "https://www.via313.com/\">https://www.via313.com/"
+      "url": "https://www.via313.com/"
     },
     {
       "name": "Uchi",
       "address": "801 S Lamar Blvd, Austin, TX 78704",
       "category": "Japanese",
       "image": "uchi.jpg",
-      "url": "https://uchi.uchirestaurants.com/location/austin/\">https://uchi.uchirestaurants.com/location/austin/"
+      "url": "https://uchi.uchirestaurants.com/location/austin/"
     },
     {
       "name": "888 Pan Asian Restaurant",
       "address": "2400 E Oltorf St #1A, Austin, TX 78741",
       "category": "Pan-Asian",
       "image": "888.jpg",
-      "url": "https://www.888panasianrestaurant.com/\">https://www.888panasianrestaurant.com/"
+      "url": "https://www.888panasianrestaurant.com/"
+    },
+    {
+      "name": "Bouldin Creek Cafe",
+      "address": "1900 S 1st St, Austin, TX 78704",
+      "category": "Vegetarian brunch",
+      "image": "bouldin-creek.jpg",
+      "url": "https://bouldincreekcafe.com/"
+    },
+    {
+      "name": "The Meteor",
+      "address": "2110 S Congress Ave, Austin, TX 78704",
+      "category": "Cafe, wine bar, bike shop",
+      "image": "meteor.jpg",
+      "url": "https://themeteor.cafe/about"
+    },
+    {
+      "name": "Easy Tiger",
+      "address": "6406 N Interstate 35 Frontage Rd #1100, Austin, TX 78752",
+      "category": "Bakery, beer garden",
+      "image": "easy-tiger.jpg",
+      "url": "https://www.easytigerusa.com/"
     }
   ]
 }

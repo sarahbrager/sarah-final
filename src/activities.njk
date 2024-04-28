@@ -23,7 +23,7 @@
   {% for activities in atxdata.activities %}
    <tbody>
     <tr>
-      <th scope="row"><a href="{{ activities.url }}" target="_blank">{{ activities.activity }}</a></th>
+      <th scope="row"><a href="{{ activities.url }}" target="_blank">{{ activities.activity }}</a><img src="img/img-austin/activities/{{ activities.image }}" alt="activity image" height=100 width=100></th>
       <td>{{ activities.date_time }}</td>
       <td>{{ activities.address }}</td>
     </tr>

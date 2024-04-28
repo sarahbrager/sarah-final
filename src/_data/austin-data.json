@@ -50,49 +50,57 @@
       "activity": "Texas Farmer's Market at Mueller",
       "date_time": "Sundays 10:00am – 2:00pm",
       "address": "4209 Airport Blvd. Austin, Texas 78722",
-      "url": "https://texasfarmersmarket.org/mueller/"
+      "url": "https://texasfarmersmarket.org/mueller/",
+      "image": "tfm-mueller.jpg"
     },
     {
       "activity": "Community Night at the Thinkery",
       "date_time": "Wednesdays 4:00pm – 8:00pm",
       "address": "1830 Simond Ave., Austin, TX 78723",
-      "url": "https://thinkeryaustin.org/visit-us/#hours"
+      "url": "https://thinkeryaustin.org/visit-us/#hours",
+      "image": "thinkery.jpg"
     },
     {
       "activity": "Barton Springs Pool",
       "date_time": "Year-round",
       "address": "2201 Barton Springs Rd, Austin, TX 78704",
-      "url": "https://www.austintexas.org/listings/barton-springs-pool/4687/"
+      "url": "https://www.austintexas.org/listings/barton-springs-pool/4687/",
+      "image": "barton-springs.jpg"
     },
     {
       "activity": "Kayaking Lady Bird Lake at the Rowing Dock",
       "date_time": "Year-round",
       "address": "2418 Stratford Dr., Austin, TX 78746",
-      "url": "https://www.austintexas.org/listings/rowing-dock/9470/"
+      "url": "https://www.austintexas.org/listings/rowing-dock/9470/",
+      "image": "kayaking.jpg"
     },
     {
       "activity": "See bats at the Congress Avenue Bridge",
       "date_time": "Summer evenings",
       "address": "100 Congress Ave, Austin, TX 78701-4072",
-      "url": "http://www.batcon.org/index.php/our-work/regions/usa-canada/protect-mega-populations/cab-intro"
+      "url": "http://www.batcon.org/index.php/our-work/regions/usa-canada/protect-mega-populations/cab-intro",
+      "image": "bridge-bats.jpg"
     },
     {
       "activity": "The Pecan Street Festival",
       "date_time": "Every spring and fall",
       "address": "501 Old Pecan St, Austin, TX 78701",
-      "url": "https://www.austintexas.org/listings/barton-springs-pool/4687/"
+      "url": "https://www.austintexas.org/listings/barton-springs-pool/4687/",
+      "image": "pecan-street-fest.jpg"
     },
     {
       "activity": "See free concerts at The Blues on the Green",
       "date_time": "Once a month throughout the summer",
       "address": "2100 Barton Springs Rd., Zilker Park, Austin, TX 78746",
-      "url": "https://www.austintexas.org/listings/blues-on-the-green/2673/"
+      "url": "https://www.austintexas.org/listings/blues-on-the-green/2673/",
+      "image": "blues-on-green.jpg"
     },
     {
       "activity": "Attend the South by Southwest Conference",
       "date_time": "Annually in the spring",
       "address": "Multiple locations in Austin, TX",
-      "url": "https://www.austintexas.org/listings/barton-springs-pool/4687/"
+      "url": "https://www.austintexas.org/listings/barton-springs-pool/4687/",
+      "image": "sxsw.jpg"
     }
   ],
   "murals": [
